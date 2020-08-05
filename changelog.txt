@@ -1,5 +1,9 @@
-indev 0.0.1 (08-05-2020)
-- setup index.html following Coursera Course "HTML, CSS, and Javascript for Web Developers"
+indev 0.0.1-b (08-06-2020)
+- added temporary lecture files for development and learning
 
 indev 0.0.1-a (08-05-2020)
 - added changelog.txt and commands.txt for development purposes
+
+indev 0.0.1 (08-05-2020)
+- setup index.html following Coursera Course "HTML, CSS, and Javascript for Web Developers"
+
