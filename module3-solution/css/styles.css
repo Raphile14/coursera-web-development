@@ -1,0 +1,125 @@
+*  {
+    box-sizing: border-box;    
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #FFFFFF;
+    font-family: 'Oxygen', sans-serif;
+    background-image: url("https://wallpaperset.com/w/full/8/d/7/462766.jpg");
+}
+
+#header-nav {
+    background-color: #C0C0C0;
+    border-radius: 0;
+    border: 1px solid black;
+}
+
+li {
+    margin: 5px 5px 5px 5px;
+    border: 1px solid gray;
+    background-color: lightgray;
+}
+
+#header-nav .container {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Restaurant Name */
+.navbar-brand h1 { 
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;    
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.container button.navbar-toggle, .icon-bar {
+    border: 1px solid black;
+}
+
+h2 {
+    font-size: 16px;
+    margin: 0px 0px 0px 0px;
+    color: black;
+}
+
+h3, h4 {
+    font-weight: bold;
+    color: black;
+}
+
+section {
+    margin: 10px 10px 10px 10px;
+    border: 2px solid black;
+    height: 400px;
+    background-color: lightgray;
+    
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+#section1, #section2, #section3 {
+    background-repeat: no-repeat;
+    background-position: bottom right;     
+}
+
+#section1 {
+    background-image: url("https://lh3.googleusercontent.com/proxy/AiCOIAZUOPkrEuzBDXIBW69iLa8gbYlmERFlNsm0TidKQoRH7XCQlvxmdNG9McGf_bMUN-KgZ1KWghd5Yf4geUNMRKOi_mV42p81LxfffQou2CeI5bo");
+    background-size: 150px;
+}
+
+#section2 {
+    background-image: url("https://lh3.googleusercontent.com/proxy/L-1I3MKFscsXWSOBusEqDTXsTNrGgKDID9ajdvqzX99cv9pwanePFTd6QaT5bpIHFX9mu3lHB0iVHMwUTh8H21U-mT8L63n0MSOYl1XtE9qO5F4jEN6BFH0W");
+    background-size: 200px;
+}
+
+#section3 {
+    background-image: url("https://pngriver.com/wp-content/uploads/2018/04/Download-Sushi-PNG-Image.png");
+    background-size: 160px;
+}
+
+
+/* Media Queries */
+/* Desktop Version */
+@media (min-width: 992px) {
+    .col-large {
+        float: left;  
+        width: 33.33%;      
+    }
+}
+
+/* Tablet Version */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-medium, .col-medium-2 {
+        float: left;            
+    }     
+    .col-medium {
+        width: 50%;
+    }
+    .col-medium-2 {
+        width: 100%;
+    }
+}
+
+/* Mobile Version */
+@media (max-width: 767px) {
+    .col-small {
+        float: left;
+        width: 100%;
+    }        
+}
