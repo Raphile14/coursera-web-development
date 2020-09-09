@@ -1,3 +1,6 @@
+indev 0.0.1-f (09-09-2020)
+- added solution for module 5 coding assignment
+
 indev 0.0.1-e (08-31-2020)
 - added solution for module 4 coding assignment
 
